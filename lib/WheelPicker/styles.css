@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wheel-picker {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  .wheel-picker::-webkit-scrollbar {
+    display: none; /* WebKit (Chrome, Safari) */
+  }
+}
